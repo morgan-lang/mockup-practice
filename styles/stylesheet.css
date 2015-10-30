@@ -1,0 +1,35 @@
+* {box-sizing: border-box;}
+* {font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+header {float: top;
+  width: 100%;
+}
+
+header h1 { max-width: 30%;
+float: left;}
+
+nav {clear: both;
+}
+nav li {
+    float: left;
+    list-style-type: none;
+  width: 10%;
+background-color: plum;
+border-left: .1em solid black;
+  padding: .2em;
+    text-align: center;
+  
+}
+aside { clear: both; align-content: left; 
+width: 20%;
+background-color: mediumpurple;
+}
+
+article { float: right;
+          width: 80%;
+background-color: lightgray;
+}
+
+
+footer { clear: both; }
