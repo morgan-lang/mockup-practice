@@ -2,12 +2,11 @@
 * {font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-header {float: top;
-  width: 100%;
+header h1 { color: #8768BB;
+text-align: center;
+  padding: 1.5em 0em .5em 0em;
+  font-weight: 700
 }
-
-header h1 { max-width: 30%;
-float: left;}
 
 nav {clear: both;
 }
@@ -15,21 +14,29 @@ nav li {
     float: left;
     list-style-type: none;
   width: 10%;
-background-color: plum;
+background-color: #8768BB;
 border-left: .1em solid black;
   padding: .2em;
     text-align: center;
   
 }
 aside { clear: both; align-content: left; 
+    position: absolute;
 width: 20%;
-background-color: mediumpurple;
+  min-height: 80%;
+background-color: #C1B1D5;
 }
 
 article { float: right;
           width: 80%;
-background-color: lightgray;
+  padding: 10em 10em 4.1em 10em;
+  min-height: 80%;
+background-color: #E1E4E9;
 }
 
 
-footer { clear: both; }
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
