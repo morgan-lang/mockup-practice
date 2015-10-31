@@ -10,33 +10,45 @@ text-align: center;
 
 nav {clear: both;
 }
-nav li {
-    float: left;
-    list-style-type: none;
-  width: 10%;
-background-color: #8768BB;
-border-left: .1em solid black;
-  padding: .2em;
-    text-align: center;
-  
+nav {
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+  background-color: #8768BB;
 }
-aside { clear: both; align-content: left; 
-    position: absolute;
-width: 20%;
-  min-height: 80%;
-background-color: #C1B1D5;
+nav li{
+    display:inline;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
 }
 
-article { float: right;
+  
+
+aside { clear: both; 
+  float: left;
+  width: 20%;
+background-color: #C1B1D5;
+     text-align: center;
+}
+
+article {float: right;
           width: 80%;
-  padding: 10em 10em 4.1em 10em;
-  min-height: 80%;
 background-color: #E1E4E9;
 }
 
 
 footer{
     bottom: 0;
-    position: fixed;
+    position:fixed; 
     width: 100%;
+    text-align: center;
+    width: 100%;
+  margin:auto;
 }
+
+img {padding: 1em;}
